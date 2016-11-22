@@ -70,7 +70,7 @@ public class Tool : EditorWindow
             {
                 if (string.IsNullOrEmpty(item))
                 {
-                    EditorUtility.DisplayDialog("创建新字体", "请填写玩所有字符！", "Ok");
+                    EditorUtility.DisplayDialog("创建新字体", "请填写完所有字符！", "Ok");
                     return;
                 }
             }
