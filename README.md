@@ -1,6 +1,8 @@
 # UnityTool
 一些简单的Unity小工具
 
+使用的Unity版本是5.4.2
+
 有以下工具:
 
 1. 创建新的UGUI脚本
