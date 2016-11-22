@@ -1,0 +1,39 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
+public class #SCRIPT_NAME# 
+{
+    private static #SCRIPT_NAME# self = null;
+    public static #SCRIPT_NAME# Inst()
+    {
+        if (self == null)
+        {
+            self = new #SCRIPT_NAME#();
+        }
+		return self;
+    }
+
+	private GameObject prefabGo = null;
+    private string prefabName = "";
+    private #COMPONENT_TYPE# #COMPONENT_NAME# = null;
+
+    public #SCRIPT_NAME#()
+    {
+        prefabName = #PREFAB_NAME#;
+    }
+
+    private void InitElement()
+    {
+		prefabGo = GameObject.Find(prefabName);
+        #COMPONENT_NAME# = prefabGo.transform.Find(#COMPONENT_PATH#).GetComponent<#COMPONENT_TYPE#>();
+        
+        #COMPONENT_NAME#.#ONCLICK#.AddListener(delegate{#FUNCTION_NAME#();});
+
+    }
+
+    private void #FUNCTION_NAME#(){}
+
+}
