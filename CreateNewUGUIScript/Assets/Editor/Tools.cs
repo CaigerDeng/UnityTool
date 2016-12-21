@@ -166,9 +166,18 @@ public class Tools : EditorWindow
                     contentList[i].isFinishCheckUIType = true;
                 }
                 //calculate the path, remove the root transform name
-                if (contentList[i].myComponent.transform != contentList[i].myComponent.transform.root)
+                if (contentList[i].myComponent.transform != null)
                 {
-                    string str = AnimationUtility.CalculateTransformPath(contentList[i].myComponent.transform, contentList[i].myComponent.transform.root);
+                    Transform rootTrans = contentList[i].myComponent.transform.parent;
+                    while (true)
+                    {
+                        if (rootTrans.GetComponent<Canvas>() != null)
+                        {
+                            break;
+                        }
+                        rootTrans = rootTrans.parent;
+                    }
+                    string str = AnimationUtility.CalculateTransformPath(contentList[i].myComponent.transform, rootTrans);
                     int index = str.IndexOf("/");
                     str = str.Remove(0, index + 1);
                     contentList[i].componentPath = str;
@@ -178,7 +187,6 @@ public class Tools : EditorWindow
                     }
                 }
                 //show details
-
                 if (contentList[i].isShowFold)
                 {
                     GUILayout.Label("component name in script:");
