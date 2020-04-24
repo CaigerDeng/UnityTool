@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateNewFont.CSharp.Editor", "CreateNewFont.CSharp.Editor.csproj", "{7ADE88E9-AD59-705E-0CA9-0130C704ACD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateNewFont.Editor", "CreateNewFont.Editor.csproj", "{99BDF492-FE01-1583-3A82-CB7D6B0439E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7ADE88E9-AD59-705E-0CA9-0130C704ACD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7ADE88E9-AD59-705E-0CA9-0130C704ACD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7ADE88E9-AD59-705E-0CA9-0130C704ACD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7ADE88E9-AD59-705E-0CA9-0130C704ACD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BDF492-FE01-1583-3A82-CB7D6B0439E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BDF492-FE01-1583-3A82-CB7D6B0439E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BDF492-FE01-1583-3A82-CB7D6B0439E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BDF492-FE01-1583-3A82-CB7D6B0439E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
