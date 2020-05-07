@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/CreateNewUGUIScript.unity
+- path: Assets/Scene/02 CreateNewUGUIScript.unity
   isLoaded: 1
   isActive: 1
