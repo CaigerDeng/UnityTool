@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTool.Editor", "UnityTool.Editor.csproj", "{77AC2583-AF91-1471-3310-FADF693DA45C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTool", "UnityTool.csproj", "{FDDA57F0-CD32-0885-7E87-2751F8D5212E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77AC2583-AF91-1471-3310-FADF693DA45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AC2583-AF91-1471-3310-FADF693DA45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AC2583-AF91-1471-3310-FADF693DA45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AC2583-AF91-1471-3310-FADF693DA45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDA57F0-CD32-0885-7E87-2751F8D5212E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDA57F0-CD32-0885-7E87-2751F8D5212E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDA57F0-CD32-0885-7E87-2751F8D5212E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDA57F0-CD32-0885-7E87-2751F8D5212E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
